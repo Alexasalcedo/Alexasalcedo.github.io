@@ -70,6 +70,25 @@
         display: block;
       }
 
+      .ab {
+      color:cadetblue;
+      font-weight: bold;
+      font-size: 25px;
+      padding-right: 10px;
+      padding-left: 10px;
+      text-decoration: none;
+    }
+
+    .ab:visited {
+        color: cadetblue;
+        text-decoration: none;
+    }
+
+    .ab:hover {
+        color: #cbbacc;
+        text-decoration: none;
+    }
+
       /* Custom code for the demo */
     </style>
   </head>
@@ -120,14 +139,14 @@
             <li class="mr-3">
               <a
                 class="inline-block py-2 px-4 text-black font-bold no-underline"
-                href="#"
+                href="#About_me"
                 >About Me</a
               >
             </li>
             <li class="mr-3">
               <a
                 class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                href="#"
+                href="#Work"
                 >Work</a
               >
             </li>
@@ -136,7 +155,7 @@
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded mt-4 lg:mt-0 py-4 px-8 shadow opacity-75"
           >
-            Contact
+            <a href="mailto:alexa73951@gmail.com?subject=Contacto">Contact</a>
           </button>
         </div>
       </div>
@@ -158,11 +177,12 @@
         <button
           class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"
         >
-          Github
+          <a href="https://github.com/Alexasalcedo" target="_blank" class="ab">Github</a>
         </button>
       </div>
 
       <div class="flex items-center w-full mx-auto content-end">
+        <h1 class="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight" id="About_me">About Me</h1>
         <div
           class="browser-mockup flex flex-1 m-6 md:px-0 md:m-12 bg-white w-1/2 rounded shadow-xl"
         >
@@ -219,6 +239,7 @@
       <div class="container max-w-5xl mx-auto m-8">
         <h2
           class="w-full my-2 text-5xl font-black leading-tight text-center text-gray-800"
+          id="Work"
         >
           My Work
         </h2>
@@ -326,7 +347,7 @@
               <button
                 class="mx-auto lg:mx-0 hover:underline gradient2 text-gray-800 font-extrabold rounded my-6 py-4 px-8 shadow-lg"
               >
-                Repositori
+              <a href="https://github.com/Alexasalcedo/car-race-game" target="_blank" class="ab">Repositori</a>
               </button>
             </div>
           </div>
@@ -438,7 +459,7 @@
       <button
         class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded my-6 py-4 px-8 shadow-lg"
       >
-        Send me an email!
+        <a href="mailto:alexa73951@gmail.com?subject=Contacto">Send me an email!</a>
       </button>
     </section>
 
@@ -493,7 +514,7 @@
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a
-                  href="#"
+                  href="https://github.com/Alexasalcedo"
                   class="font-light no-underline hover:underline text-gray-800 hover:text-orange-500"
                   >Github</a
                 >
